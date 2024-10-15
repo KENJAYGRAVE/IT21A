@@ -1,4 +1,4 @@
-class Person{
+class Human{
     constructor(name){
          this.name = name;
      }
@@ -8,7 +8,7 @@ class Person{
        }
 }
 
-class Student extends Person{
+class istodyante extends Human{
    constructor(name, rollNumber){
       super(name);
       this.rollNumber = rollNumber;
@@ -25,6 +25,6 @@ class Student extends Person{
       }
 
 }
-      var student = new Student("Ken jay", 1);
-      student.logDetails();
-      student.sayName();
+      var man = new istodyante("Ken jay", 1);
+      man.logDetails();
+      man.sayName();
